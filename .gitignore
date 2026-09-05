@@ -2,6 +2,7 @@ node_modules/
 package-lock.json
 out/
 test/integration/dxlclient.config
+test/integration/testapp.config
 npm-debug.log
 *.tgz
 *.zip

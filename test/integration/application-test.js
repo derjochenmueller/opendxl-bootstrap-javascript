@@ -7,7 +7,7 @@ const dxl = require('@opendxl/dxl-client')
 const Request = dxl.Request
 const Response = dxl.Response
 const ServiceRegistrationInfo = dxl.ServiceRegistrationInfo
-const uuidv4 = require('uuid/v4')
+const { v4: uuidv4 } = require('uuid')
 const MessageUtils = require('../..').MessageUtils
 const TestApplication = require('./test-application')
 
